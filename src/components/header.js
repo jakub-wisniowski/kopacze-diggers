@@ -21,7 +21,7 @@ const StyledHeader = styled.header`
   justify-content: center;
   align-items: center;
   height: 100px;
-  @media all and (max-width: 900px) {
+  @media (max-width: 900px) {
     height: 60px;
   }
 `
@@ -69,7 +69,7 @@ const StyledLinksWrapper = styled.div`
     }
   }
 
-  @media all and (max-width: 900px) {
+  @media (max-width: 900px) {
     a {
       display: none;
     }

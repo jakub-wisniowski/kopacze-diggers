@@ -14,7 +14,7 @@ const AboutPage = () => {
 
   return (
     <>
-      <SEO title="About page" />
+      <SEO title={t("about.seoTitle")} />
       <StyledSection>
         <StyledBackgroundImage background={firstImage}></StyledBackgroundImage>
         <StyledContainer>

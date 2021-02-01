@@ -7,15 +7,10 @@ const StyledContainer = styled.div`
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
-  min-height: calc(100vh - 155px);
   padding: 100px 0;
   align-items: center;
   justify-content: center;
   opacity: 1;
-
-  @media all and (max-width: 901px) {
-    min-height: calc(100vh - 95px);
-  }
 
   h1,
   h2 {
@@ -24,8 +19,8 @@ const StyledContainer = styled.div`
     letter-spacing: 0.5rem;
   }
 
-  @media screen and (max-width:500px) {
-    padding: 50px 0;
+  @media (max-width:500px) {
+    padding: 20px 0;
   }
 `
 

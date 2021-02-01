@@ -40,8 +40,12 @@ const GlobalStyle = createGlobalStyle`
   h1 {
     font-size: 3rem;
     margin-bottom: 20px;
-    @media all and (max-width: 700px) {
+    @media (max-width: 700px) {
       white-space: pre-line;
+    }
+
+    @media (max-width: 500px) {
+      margin-bottom: 0;
     }
   }
 
@@ -51,7 +55,7 @@ const GlobalStyle = createGlobalStyle`
 
   p {
     padding: 20px 0;
-    text-align: justify;
+    text-align: center;
     font-size: 1.3rem;
   }
 
@@ -63,13 +67,31 @@ const GlobalStyle = createGlobalStyle`
     font-size: 1rem;
   }
 
-  @media screen and (max-width: 700px) {
+  @media (max-width: 700px) {
     h1 {
       font-size: 1.7rem;
     }
 
     h2 {
       font-size: 1.3rem;
+    }
+
+    p, li {
+      font-size: 0.8rem;
+    }
+
+    div {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 1.3rem;
+    }
+
+    h2 {
+      font-size: 1.1rem;
     }
 
     p, li {

@@ -12,7 +12,7 @@ const SupportUsPage = () => {
 
   return (
     <>
-      <SEO title="Support us page" />
+    <SEO title={t("supportUs.seoTitle")} />
       <StyledSection>
         <StyledBackgroundImage background={firstImage}></StyledBackgroundImage>
         <StyledContainer>

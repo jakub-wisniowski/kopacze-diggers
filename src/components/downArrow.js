@@ -36,6 +36,11 @@ const StyledDownArrow = styled.div`
     transform: translateX(-50%);
     cursor: pointer;
   }
+
+  @media (max-width: 500px) {
+    width: 30px;
+    height: 30px;
+  }
 `
 
 const StyledArrowContent = styled.div`
@@ -45,6 +50,10 @@ const StyledArrowContent = styled.div`
   border-bottom: 3px solid black;
   border-right: 3px solid black;
   transform: rotateZ(45deg);
+  @media (max-width: 500px) {
+    width: 15px;
+    height: 15px;
+  }
 `
 
 const DownArrow = ({nextSectionNr}) => {

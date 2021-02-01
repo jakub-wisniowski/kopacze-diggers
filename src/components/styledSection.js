@@ -13,6 +13,13 @@ const StyledSection = styled.section`
     display: block;
     position: absolute;
   }
+
+  [class^="styledContainer"] {
+      min-height: calc(100vh - 155px);
+    @media (max-width: 500px) {
+      min-height: calc(100vh - 95px);
+    }
+  }
 `
 
 export default StyledSection;

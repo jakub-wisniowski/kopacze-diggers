@@ -36,12 +36,12 @@ const StyledUl = styled.ul`
     opacity: 0.8;
     border-radius: 15px;
 
-    @media all and (min-width: 900px) {
+    @media (min-width: 900px) {
       min-width: 30%;
       width: 30%;
     }
 
-    @media all and (max-width: 600px) {
+    @media (max-width: 600px) {
       min-width: 80%;
       width: 80%;
     }
@@ -53,7 +53,7 @@ const IndexPage = () => {
 
   return (
     <>
-      <SEO title="Home" />
+    <SEO title={t("home.seoTitle")} />
       <StyledSection>
         <StyledBackgroundImage background={firstImage}></StyledBackgroundImage>
         <StyledContainer>
