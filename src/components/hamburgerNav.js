@@ -4,7 +4,7 @@ import { PRIMARY, SECONDARY } from "../common/colors"
 
 const StyledHamburgerMenuWrapper = styled.div`
   width: 100%;
-  @media all and (min-width: 901px) {
+  @media (min-width: 901px) {
     &,
     * {
       display: none;
